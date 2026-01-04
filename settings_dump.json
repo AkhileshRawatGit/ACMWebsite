@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "badge": "Swami Rama Himalayan University",
+    "title": "SRHU ACM Student Chapter",
+    "subtitle": "Swami Rama Himalayan University"
+  },
+  "stats": {
+    "events": 3,
+    "members": 3,
+    "projects": 12,
+    "workshops": 3
+  },
+  "contact": {
+    "email": "acm@srhu.edu.in",
+    "phone": "+91 135 247 1111",
+    "address": "Swami Rama Himalayan University, Jolly Grant, Dehradun, Uttarakhand 248016"
+  },
+  "mission": {
+    "title": "Empowering Future Tech Leaders",
+    "description": "We are dedicated to fostering innovation, collaboration, and excellence in computing. Our chapter provides students with opportunities to learn, grow, and connect with the global ACM community."
+  }
+}

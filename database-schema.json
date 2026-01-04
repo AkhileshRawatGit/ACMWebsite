@@ -1,0 +1,73 @@
+{
+  "collections": {
+    "events": {
+      "description": "Stores event information",
+      "schema": {
+        "_id": "ObjectId",
+        "title": "String",
+        "date": "Date",
+        "time": "String",
+        "location": "String",
+        "category": "String (workshop, talk, competition)",
+        "description": "String",
+        "image": "String (URL or file path)",
+        "attendees": "Number",
+        "registrations": ["ObjectId (User references)"],
+        "createdAt": "Date",
+        "updatedAt": "Date"
+      }
+    },
+    "team_members": {
+      "description": "Stores team member information",
+      "schema": {
+        "_id": "ObjectId",
+        "name": "String",
+        "role": "String",
+        "image": "String (URL or file path)",
+        "bio": "String",
+        "email": "String",
+        "socialLinks": {
+          "linkedin": "String",
+          "github": "String"
+        },
+        "createdAt": "Date"
+      }
+    },
+    "gallery": {
+      "description": "Stores gallery images",
+      "schema": {
+        "_id": "ObjectId",
+        "title": "String",
+        "category": "String",
+        "image": "String (URL or file path)",
+        "eventId": "ObjectId (Event reference)",
+        "uploadedAt": "Date"
+      }
+    },
+    "members": {
+      "description": "Stores membership information",
+      "schema": {
+        "_id": "ObjectId",
+        "name": "String",
+        "email": "String",
+        "phone": "String",
+        "rollNumber": "String",
+        "branch": "String",
+        "semester": "Number",
+        "joinedAt": "Date",
+        "status": "String (active, inactive)"
+      }
+    },
+    "resources": {
+      "description": "Stores resource links and information",
+      "schema": {
+        "_id": "ObjectId",
+        "title": "String",
+        "url": "String",
+        "category": "String",
+        "description": "String",
+        "createdAt": "Date"
+      }
+    }
+  }
+}

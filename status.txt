@@ -1,0 +1,2 @@
+STATUS: FAILED
+ERROR: getaddrinfo ENOTFOUND db.wffcbbimepgroimogekc.supabase.co

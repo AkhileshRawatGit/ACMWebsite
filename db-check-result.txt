@@ -1,0 +1,28 @@
+Connecting to database...
+
+=== CHECKING TABLES ===
+
+Tables in database:
+ - events
+ - team_members
+ - gallery
+ - members
+ - resources
+ - settings
+ - faculty_coordinators
+
+=== CHECKING team_members TABLE ===
+
+team_members columns:
+  id: integer NOT NULL
+  name: character varying NOT NULL
+  role: character varying NULL
+  image: text NULL
+  bio: text NULL
+  email: character varying NULL
+  social_links: jsonb NULL
+  created_at: timestamp without time zone NULL
+
+Total team members in database: 0
+
+=== DONE ===
